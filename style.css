@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&family=League+Gothic&display=swap');
+.mainComponent{
+    margin-top: 100px;
+}
+.counter{
+    font-size: 14px;
+    color:#333;
+    font-weight: 500;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(11, 241, 69);
+    color:#333;
+    
+}
+.titleHead{
+    border-bottom: 1px solid rgb(75, 71, 71);
+    margin-bottom: 40px;
+    font-weight: 500;  
+}
+.btnSubmitEle{
+    width: 100%;
+}
+.list-group-item{
+    display: list-item;
+}
+ol{
+    margin-left: 18px;
+    line-height: 30px;
+}
+li{
+    /* border-bottom:1px solid rgb(73, 69, 69); */
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background-color: #e5ece7;
+    padding:10px;
+    border-radius: 5px;
+}
+li:last-child{
+    border-bottom: 0;
+}
+.right-date{
+    margin-top: 30px;
+}
+.elmInfo{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(206, 204, 204);
+    padding-top: 5px;
+}
+.timeEle{
+    color:rgb(66, 63, 63);
+    font-size: 12px;
+    font-weight: 500;
+}
+textarea{
+    resize: none;
+}
+.Noticed{
+    display: block;
+    text-align: center;
+}
+.mark{
+    color:black;
+    background-color: white;
+    border-radius: 3px;
+}
